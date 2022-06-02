@@ -206,8 +206,8 @@ static Key keys[] = {
         { 0,                            XF86XK_MonBrightnessUp,        spawn,      SHCMD("backlightinc inc") },
 	{ 0,                            XF86XK_MonBrightnessDown,      spawn,      SHCMD("backlighting dec") },
 	{ 0,                            XF86XK_AudioRaiseVolume,       spawn,      SHCMD("volume up") },
-	{ 0,                            XF86XK_AudioMute,              spawn,      SHCMD("volume down") },
-	{ 0,                            XF86XK_AudioMicMute,           spawn,      SHCMD("volume toggle") },
+	{ 0,                            XF86XK_AudioLowerVolume,       spawn,      SHCMD("volume down") },
+	{ 0,                            XF86XK_AudioMute,              spawn,      SHCMD("volume toggle") },
 };
 
 /* button definitions */
